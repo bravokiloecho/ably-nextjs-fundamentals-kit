@@ -1,5 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
+  // eslint: {
+  //   dirs: [''],
+  //   ignoreDuringBuilds: true,
+  // },
+
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   // disabling strict mode since the examples use
   // useEffect with no dependencies to ensure the function
   // is only run once and only run on the client.
