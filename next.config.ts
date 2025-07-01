@@ -18,6 +18,15 @@ const nextConfig: NextConfig = {
     domains: ['static.ably.dev'],
   },
   serverExternalPackages: ['ably'],
+
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
 }
 
 module.exports = nextConfig

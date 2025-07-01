@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "dev:turbo": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start --turbopack",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "ts": "tsc --noEmit"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^15.3.4",
+    "@svgr/webpack": "^8.1.0",
     "ably": "^2.10.0",
     "dotenv": "^17.0.0",
     "flowbite": "^3.1.2",
