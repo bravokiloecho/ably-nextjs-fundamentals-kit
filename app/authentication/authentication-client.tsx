@@ -17,7 +17,7 @@ export default function Authentication() {
       <div className="flex flex-row justify-center">
         <div className="flex flex-col justify-start items-start gap-10">
           <SampleHeader sampleName="Authentication" sampleIcon="Authentication.svg" sampleDocsLink="https://ably.com/docs/getting-started/react#authenticate" />
-          <div className="font-manrope text-base max-w-screen-sm text-slate-800 text-opacity-100 leading-6 font-light" >
+          <div className="font-manrope text-base max-w-(--breakpoint-sm) text-slate-800 text-opacity-100 leading-6 font-light" >
             Authenticate and establish a persistant bi-directional connection to the Ably platform.
           </div>
           <ConnectionStatus />

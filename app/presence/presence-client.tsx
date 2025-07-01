@@ -25,7 +25,7 @@ export default function Presence() {
         <div className="flex flex-row justify-center">
         <div className="flex flex-col justify-start items-start gap-10">
           <SampleHeader sampleName="Presence" sampleIcon="Presence.svg" sampleDocsLink="https://ably.com/docs/getting-started/react#usePresence" />
-          <div className="font-manrope text-base max-w-screen-sm text-slate-800 text-opacity-100 leading-6 font-light">
+          <div className="font-manrope text-base max-w-(--breakpoint-sm) text-slate-800 text-opacity-100 leading-6 font-light">
               Presence with Ably allows you to keep track of devices that are
               present on a channel. This is great for tracking if a device is
               online or offline or indicating if a user is in a chat room when

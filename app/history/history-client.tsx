@@ -18,7 +18,7 @@ export default function Presence() {
           <div className="flex flex-col justify-start items-start gap-10 h-[172px]">
             <div className="flex flex-col justify-start items-start gap-4">
               <SampleHeader sampleName="History" sampleIcon="History.svg" sampleDocsLink="https://ably.com/docs/storage-history/history?lang=javascript" />
-              <div className="font-manrope text-base max-w-screen-sm text-slate-800 text-opacity-100 leading-6 font-light">
+              <div className="font-manrope text-base max-w-(--breakpoint-sm) text-slate-800 text-opacity-100 leading-6 font-light">
                 Retrieve a history of messages that have been published to a channel.
                 Messages are only stored for 2 minutes by default. In order for them
                 to be stored for longer you should enable the&nbsp;

@@ -38,7 +38,7 @@ const Home = () => {
                 alt="Next.js"
               />
             </div>
-            <div className="font-manrope text-[18px] max-w-screen-sm text-slate-800 text-opacity-100 leading-6 font-light">
+            <div className="font-manrope text-[18px] max-w-(--breakpoint-sm) text-slate-800 text-opacity-100 leading-6 font-light">
               <span className="text-black text-opacity-100 font-bold">
                 At Ably we are big fans of Next.js&nbsp;
               </span>
@@ -53,7 +53,7 @@ const Home = () => {
                 <div className="flex flex-col justify-start items-start pt-6 pr-6 pb-6 pl-6 rounded-2xl h-[216px] bg-white">
                   <div className="flex flex-col justify-center items-start gap-4 h-[168px]">
                     <div className="flex flex-row justify-start items-center gap-4 w-80">
-                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-gradient-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)]">
+                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-linear-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)]">
                         <div className="flex justify-center items-center h-8">
                           <img
                             width="27.7px"
@@ -96,7 +96,7 @@ const Home = () => {
                 <div className="flex flex-col justify-start items-start pt-6 pr-6 pb-6 pl-6 rounded-2xl h-[216px] bg-white">
                   <div className="flex flex-col justify-center items-start gap-4 h-[168px]">
                     <div className="flex flex-row justify-start items-center gap-4 w-80">
-                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-gradient-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
+                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-linear-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
                         <div className="flex flex-col justify-center items-center h-8">
                           <img
                             width="30.3px"
@@ -141,7 +141,7 @@ const Home = () => {
                 <div className="flex flex-col justify-start items-start pt-6 pr-6 pb-6 pl-6 rounded-2xl h-64 bg-white">
                   <div className="flex flex-col justify-center items-start gap-4 h-52">
                     <div className="flex flex-row justify-start items-center gap-4 w-80">
-                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-gradient-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
+                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-linear-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
                         <div className="flex justify-center items-center w-8 h-8">
                           <img
                             width="23.2px"
@@ -184,7 +184,7 @@ const Home = () => {
                 <div className="flex flex-col justify-start items-start pt-6 pr-6 pb-6 pl-6 rounded-2xl h-64 bg-white">
                   <div className="flex flex-col justify-center items-start gap-4 h-52">
                     <div className="flex flex-row justify-start items-center gap-4 w-80">
-                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-gradient-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
+                      <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 border rounded-lg h-14 bg-linear-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
                         <div className="flex flex-col justify-center items-center h-8">
                           <img
                             width="30.1px"

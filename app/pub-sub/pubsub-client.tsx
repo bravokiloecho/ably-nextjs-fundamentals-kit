@@ -16,7 +16,7 @@ export default function PubSubClient() {
         <div className="flex flex-row justify-center">
           <div className="flex flex-col justify-start items-start gap-10">
             <SampleHeader sampleName="Pub/Sub Channels" sampleIcon="PubSubChannels.svg" sampleDocsLink="https://ably.com/docs/getting-started/react#useChannel" />
-            <div className="font-manrope text-base max-w-screen-sm text-slate-800 text-opacity-100 leading-6 font-light">
+            <div className="font-manrope text-base max-w-(--breakpoint-sm) text-slate-800 text-opacity-100 leading-6 font-light">
               Publish messages on channels and subscribe to channels to receive messages. Click&nbsp;<span className="font-medium">Publish from Client</span>&nbsp;to publish a message on a channel from the web browser client. Click&nbsp;<span className="font-medium">Publish from Server</span>&nbsp;to publish a message from a serverless function.
             </div>
             <PubSubMessages />

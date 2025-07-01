@@ -2,7 +2,7 @@ export default function SampleHeader(props: { sampleName:string, sampleIcon:stri
   return (
     <div className="flex flex-row justify-between items-center gap-6 w-[752px]">
       <div className="flex flex-row justify-start items-center gap-6 w-[480px]">
-        <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 rounded-xl border h-16 bg-gradient-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
+        <div className="flex flex-row justify-center items-center pt-3 pr-3 pb-3 pl-3 rounded-xl border h-16 bg-linear-to-br from-[rgba(255,255,255,1)] from-29% to-[rgba(248,250,252,1)] to-134%">
           <div className="flex flex-col justify-center items-center h-10">
             <img width="37.9px" height="31.3px" src={ "/assets/" + props.sampleIcon} alt={props.sampleName} />
           </div>
