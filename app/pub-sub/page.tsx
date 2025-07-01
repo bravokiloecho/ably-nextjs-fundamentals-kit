@@ -4,9 +4,11 @@
  * Warning: Opening too many live preview tabs will slow down performance.
  * We recommend closing them after you're done.
  */
-import React from 'react'
 import '../global.css'
+
 import dynamic from 'next/dynamic'
+import React from 'react'
+
 import Sidebar from '../../components/Sidebar'
 
 const PubSubClient = dynamic(() => import('./pubsub-client.tsx'), {

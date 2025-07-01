@@ -1,12 +1,12 @@
 
 'use client'
 
-import { MouseEventHandler, MouseEvent, useState } from 'react'
-
 import * as Ably from 'ably'
+import { AblyProvider, useAbly, useConnectionStateListener } from 'ably/react'
+import { MouseEvent, MouseEventHandler, useState } from 'react'
+
 import Logger, { LogEntry } from '../../components/logger'
 import SampleHeader from '../../components/SampleHeader'
-import { AblyProvider, useAbly, useConnectionStateListener } from 'ably/react'
 
 export default function Authentication() {
 

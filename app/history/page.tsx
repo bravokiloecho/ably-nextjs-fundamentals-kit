@@ -2,9 +2,11 @@
  * Warning: Opening too many live preview tabs will slow down performance.
  * We recommend closing them after you're done.
  */
-import React from "react";
 import "../global.css";
+
 import dynamic from 'next/dynamic';
+import React from "react";
+
 import MenuFooter from "../../components/FooterItem.tsx";
 import MenuItem from "../../components/MenuItem.tsx";
 import Sidebar from "../../components/Sidebar.tsx";

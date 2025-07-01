@@ -1,5 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
 import * as Ably from "ably"
+import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   if (!process.env.ABLY_API_KEY) {
@@ -17,7 +17,7 @@ export async function POST(req: Request) {
 
   const client = new Ably.Rest(process.env.ABLY_API_KEY)
 
-  var channel = client.channels.get('status-updates')
+  const channel = client.channels.get('status-updates')
   const message: { text: string } = await req.json()
 
   // By publishing via the serverless function you can perform
